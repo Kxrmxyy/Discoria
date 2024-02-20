@@ -1,5 +1,5 @@
 local Discoria = {}
 
-function Discord:HWID()
+function Discoria:HWID()
   return game:GetService("RbxAnalyticsService"):GetClientId()
 end
