@@ -1,9 +1,6 @@
-local Discoria = {}
-
-function Discoria:HWID()
-  return game:GetService("RbxAnalyticsService"):GetClientId()
-end
-
-function Discoria:Executor()
-  return identifyexecutor()
+local Discoria = function(b,c,d,e,f,g)
+  game:GetService("StarterGui"):SetCore("SendNotification",{
+      Title=b,
+      Text=c,
+      Duration=d})
 end
